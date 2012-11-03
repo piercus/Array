@@ -1,4 +1,4 @@
-fjs.define('core/Array/removeOneValue', function() {
+sand.define('core/Array/removeOneValue', function() {
 
   Array.prototype.removeOneValue = function(v) {
 		for (var i = this.length; i--; ) {

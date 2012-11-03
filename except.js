@@ -1,4 +1,4 @@
-(fjs.define("core/Array/except", function() {
+(sand.define("core/Array/except", function() {
   
   Array.prototype.except = function(v) { // same as above but the "not-in-the-return" values are the one where f(el) is true
     var res = [];

@@ -1,4 +1,4 @@
-(fjs.define("core/Array/exec", function() {
+(sand.define("core/Array/exec", function() {
   
   Array.prototype.exec = function(e) {
     if (typeof(e) === "function") {

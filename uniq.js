@@ -1,4 +1,4 @@
-(fjs.define("core/Array/uniq", ["core/Array/has"], function() {
+(sand.define("core/Array/uniq", ["core/Array/has"], function() {
   
   Array.prototype.uniq = function(f) {
     var res = []

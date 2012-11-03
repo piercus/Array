@@ -1,4 +1,4 @@
-(fjs.define("core/Array/diff", ["core/Array/has"], function() {
+(sand.define("core/Array/diff", ["core/Array/has"], function() {
   
   Array.prototype.diff = function(a) {
     var o = {add:[],rem:[]};
