@@ -1,4 +1,4 @@
-(sand.define("core/Array/max", function() {
+(sand.define("Array/max", function() {
   
   Array.prototype.max = function() { // returns a new array where elements are fn(this[i])
     var n = this.length;

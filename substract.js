@@ -1,4 +1,4 @@
-(sand.define("core/Array/substract", function() {
+(sand.define("Array/substract", function() {
   
   Array.prototype.substract = function(o) { // same as sub but doesn't override this
     var r = this.slice();

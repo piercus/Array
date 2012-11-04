@@ -1,4 +1,4 @@
-(sand.define("core/Array/exceptFn", function() {
+(sand.define("Array/exceptFn", function() {
   
   Array.prototype.exceptFn = function(f) { // same as above but the "not-in-the-return" values are the one where f(el) is true
     var r = this.slice();

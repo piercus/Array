@@ -1,4 +1,4 @@
-(sand.define("core/Array/map", function() {
+(sand.define("Array/map", function() {
   
   //TOMATURE:debug
   var debug = this.debug;

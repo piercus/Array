@@ -1,4 +1,4 @@
-(sand.define("core/Array/last", function() {
+(sand.define("Array/last", function() {
   
   Array.prototype.last = function() {
     return this[this.length-1];

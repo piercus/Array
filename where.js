@@ -1,4 +1,4 @@
-(sand.define("core/Array/where", function() {
+(sand.define("Array/where", function() {
   
   Array.prototype.where = function(f) {
     var res = [];

@@ -1,4 +1,4 @@
-(sand.define("core/Array/flatten", ["core/isArray"], function(r, module, isArray) {
+(sand.define("Array/flatten", ["isArray"], function(r, module, isArray) {
   
   Array.prototype.flatten = function() { // same as above but the "not-in-the-return" values are the one where f(el) is true
     var res = [];

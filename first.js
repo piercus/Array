@@ -1,4 +1,4 @@
-(sand.define("core/Array/first", function() {
+(sand.define("Array/first", function() {
   
   Array.prototype.first = function(f) {
     for (var i = 0, n = this.length; i < n; i++) {
