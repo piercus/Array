@@ -1,4 +1,4 @@
 sand.define("Array/mapAsync", ["utils/objMapAsync"], function(r){
   // deprecated
-  // factorize with utils/objMapAsync
+  // factorize in utils/objMapAsync
 });

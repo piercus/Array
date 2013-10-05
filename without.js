@@ -1,4 +1,4 @@
-sand.define("Array/without", ["Array/remove"], function(){
+sand.define("Array/without", function(){
   Array.prototype.without = function() {
 
     var res = this.concat();
