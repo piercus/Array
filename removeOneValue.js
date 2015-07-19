@@ -1,4 +1,4 @@
-sand.define('Array/removeOneValue', function() {
+define('Array/removeOneValue', function() {
 
   Array.prototype.removeOneValue = function(v) {
 		for (var i = this.length; i--; ) {

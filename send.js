@@ -1,4 +1,4 @@
-(sand.define("Array/send", function() {
+(define("Array/send", function() {
   
   Array.prototype.send = function(method) {
     var args = Array.prototype.slice.call(arguments);

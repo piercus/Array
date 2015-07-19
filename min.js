@@ -1,4 +1,4 @@
-(sand.define("Array/min", function() {
+(define("Array/min", function() {
   
   Array.prototype.min = function(){
     var m = this[0];

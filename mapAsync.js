@@ -1,4 +1,4 @@
-sand.define("Array/mapAsync", ["utils/objMapAsync"], function(r){
+define("Array/mapAsync", ["utils/objMapAsync"], function(){
   // deprecated
   // factorize in utils/objMapAsync
 });

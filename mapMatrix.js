@@ -1,4 +1,4 @@
-sand.define("Array/mapMatrix", ["Array/map"], function(){
+define("Array/mapMatrix", ["Array/map"], function(){
 
   Array.prototype.mapMatrix = function(fn){
     var i = 0;

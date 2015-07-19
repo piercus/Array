@@ -1,4 +1,4 @@
-(sand.define("Array/uniq", ["Array/has"], function() {
+(define("Array/uniq", ["Array/has"], function() {
   
   Array.prototype.uniq = function(f) {
     var res = []

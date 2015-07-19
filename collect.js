@@ -1,4 +1,4 @@
-(sand.define("Array/collect", function() {
+(define("Array/collect", function() {
   
   Array.prototype.collect = function(f) {
     var res = [];

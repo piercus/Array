@@ -1,4 +1,4 @@
-(sand.define("Array/diff", ["Array/has"], function() {
+(define("Array/diff", ["Array/has"], function() {
   
   Array.prototype.diff = function(a) {
     var o = {add:[],rem:[]};

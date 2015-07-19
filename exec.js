@@ -1,4 +1,4 @@
-(sand.define("Array/exec", function() {
+(define("Array/exec", function() {
   
   Array.prototype.exec = function(e) {
     if (typeof(e) === "function") {

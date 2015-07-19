@@ -1,4 +1,4 @@
-(sand.define("Array/except", function() {
+(define("Array/except", function() {
   
   Array.prototype.except = function(v) { // same as above but the "not-in-the-return" values are the one where f(el) is true
     var res = [];

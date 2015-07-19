@@ -1,4 +1,4 @@
-(sand.define("Array/has", function() {
+(define("Array/has", function() {
   
   Array.prototype.has = function(value) {
     for (var i = this.length; i--; ) {

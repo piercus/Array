@@ -1,3 +1,3 @@
-sand.define("Array/contains", ["Array/has"], function(r){
+define("Array/contains", ["Array/has"], function(r){
   Array.prototype.contains = Array.prototype.has;
 });
