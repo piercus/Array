@@ -1,3 +1,7 @@
+if (typeof define !== "function") {
+    var define = require("amdefine")(module);
+}
+
 (define("Array/send", function() {
   
   Array.prototype.send = function(method) {
