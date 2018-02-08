@@ -1,3 +1,7 @@
+if (typeof define !== "function") {
+    var define = require("amdefine")(module);
+}
+
 define("Array/mapMatrix", ["Array/map"], function(){
 
   Array.prototype.mapMatrix = function(fn){
