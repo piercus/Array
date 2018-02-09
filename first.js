@@ -1,3 +1,7 @@
+if (typeof define !== "function") {
+    var define = require("amdefine")(module);
+}
+
 (define("Array/first", function() {
   
   Array.prototype.first = function(f) {

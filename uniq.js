@@ -1,3 +1,7 @@
+if (typeof define !== "function") {
+    var define = require("amdefine")(module);
+}
+
 (define("Array/uniq", ["Array/has"], function() {
   
   Array.prototype.uniq = function(f) {
