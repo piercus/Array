@@ -10,6 +10,8 @@
   },
   "author": "fjs",
   "license": "MIT",
-  "readmeFilename": "README.md"
-
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "amdefine": "^1.0.1"
+  }
 }
